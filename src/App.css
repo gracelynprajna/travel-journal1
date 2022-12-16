@@ -7,14 +7,13 @@
     justify-content: center;
     background-color: rgb(249, 104, 128);
     color: white;
-    margin: 0;
-    padding: 0;
 }
 
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 40px;
 }
 
 .card{
@@ -24,7 +23,6 @@
 
 
 .content{
-    
     padding-left: 20px;
 }
 

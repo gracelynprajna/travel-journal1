@@ -5,7 +5,7 @@ import './App.css'
 let sampleData = [
   {
     key: 1,
-    thumbnailImg: "https://via.placeholder.com/600x400",
+    thumbnailImg: "https://via.placeholder.com/400x300",
     location: "Japan",
     destination: "Mount Fuji",
     startDate: "25 March, 2020",
@@ -15,7 +15,7 @@ let sampleData = [
   },
   {
     key: 2,
-    thumbnailImg: "https://via.placeholder.com/600x400",
+    thumbnailImg: "https://via.placeholder.com/400x300",
     location: "Australia",
     destination: "Sydney Opera House",
     startDate: "12 Jan, 2021",
@@ -25,7 +25,7 @@ let sampleData = [
   },
   {
     key: 3,
-    thumbnailImg: "https://via.placeholder.com/600x400",
+    thumbnailImg: "https://via.placeholder.com/400x3np00",
     location: "Norway",
     destination: "Geirangerfjord",
     startDate: "10 Feb, 2022",
@@ -52,6 +52,7 @@ function Information(props){
       </div>
       
       <div className="content">
+        <h5 className="location">{props.location}</h5>
         <h1 className="destination">{props.destination}</h1>
         <h4 className="dates">{props.startDate} - {props.endDate}</h4>
         <p className="description">{props.description}</p>
